@@ -1,0 +1,81 @@
+/* Hero Section */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero .btn {
+    margin-top: 30px;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 80px 0;
+  }
+  
+  .features i {
+    color: #28a745;
+    margin-bottom: 20px;
+  }
+  
+  .features h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Products Section */
+  .products {
+    padding: 80px 0;
+  }
+  
+  .products .card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+  }
+  
+  .products .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .products .card-title {
+    font-weight: bold;
+  }
+  
+  .products .btn {
+    width: 100%;
+  }
+  
+  /* FAQ Section */
+  .faq {
+    padding: 80px 0;
+  }
+  
+  .faq .card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+  }
+  
+  .faq .card-header {
+    background-color: #f8f9fa;
+  }
+  
+  .faq .btn-link {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .faq .btn-link:hover {
+    color: #28a745;
+  }
